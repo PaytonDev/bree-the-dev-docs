@@ -1,0 +1,19 @@
+.sidebar-section {
+  border: 1px solid var(--gray-5);
+  width: 12rem;
+  padding: 1rem;
+  height: 100vh;
+  overflow-y: auto;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.sidebar-link {
+  background-color: transparent;
+  color: var(--white) !important;
+}
+
+.sidebar-link-active {
+  color: var(--accent-10) !important;
+}
